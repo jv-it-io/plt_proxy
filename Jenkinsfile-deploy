@@ -1,0 +1,72 @@
+#!/usr/bin/env groovy
+@Library('customLib') _
+def notif = new fagg.notif()
+
+properties([
+	pipelineTriggers([cron('H H(22-23) *  * 0-4')])
+])
+
+node {
+
+    env.JAVA_HOME="${tool 'jdk11'}"
+    env.PATH="${env.JAVA_HOME}/bin:${env.PATH}"
+    sh 'java -version'
+
+	try {
+
+		stage('checkout') {
+			checkout scm
+		}
+
+		def pomProperties = readMavenPom file: 'pom.xml'
+
+		stage('check java') {
+			sh "java -version"
+		}
+
+		stage('clean') {
+			sh "chmod +x mvnw"
+			sh "./mvnw -Dhttps.proxyHost=proxy -Dhttps.proxyPort=8080 clean"
+		}
+
+		stage('backend tests') {
+			try {
+				sh "./mvnw -Dhttps.proxyHost=proxy -Dhttps.proxyPort=8080 verify"
+			} catch(err) {
+				notif.notifyFailedLib("#")
+			} finally {
+				junit '**/target/test-results/**/TEST-*.xml'
+			}
+		}
+
+		stage('packaging') {
+			sh "./mvnw -Dhttps.proxyHost=proxy -Dhttps.proxyPort=8080 package -Pprod -DskipTests"
+			archiveArtifacts artifacts: '**/target/*.jar', fingerprint: true
+		}
+
+		stage('quality analysis') {
+			withSonarQubeEnv('Sonar') {
+				sh "./mvnw -Dhttps.proxyHost=proxy -Dhttps.proxyPort=8080 sonar:sonar"
+			}
+		}
+
+		stage('Deploy to nexus if Release'){
+			echo "Build info ${pomProperties.version} ${pomProperties.name} ${pomProperties.artifactId} ${pomProperties.packaging}  ${pomProperties.groupId} ${BUILD_NUMBER} "
+			echo "is it a RELEASE buid : ${("${pomProperties.version}" ==~ /(.*)RELEASE(.*)/)}"
+			if("${pomProperties.version}" ==~ /(.*)RELEASE(.*)/){
+				nexusPublisher nexusInstanceId: 'nexus', nexusRepositoryId: 'releases', packages: [[$class: 'MavenPackage', mavenAssetList: [[classifier: '', extension: '', filePath: "target/${pomProperties.artifactId}-${pomProperties.version}.${pomProperties.packaging}"]], mavenCoordinate: [artifactId: "${pomProperties.artifactId}", groupId: "${pomProperties.groupId}", packaging: "${pomProperties.packaging}", version: "${pomProperties.version}"]]]
+			}
+		}
+
+		stage ('deploy') {
+
+            sh "cp target/${pomProperties.artifactId}-${pomProperties.version}.${pomProperties.packaging} target/${pomProperties.artifactId}-${pomProperties.version}.war"
+            sh "/var/lib/jenkins/scripts/deploy/deploy-app-java.sh int ${pomProperties.artifactId}"
+
+		}
+
+	} catch (e) {
+		notif.notifyFailedLib("#plato-team")
+	}
+
+}

@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8" standalone="true"?>
+
+    -<ROOT xmlns:ns14="urn:be:fgov:ehealth:samws:v2:actual:common" xmlns:ns13="urn:be:fgov:ehealth:samws:v2:chapteriv:submit" xmlns:ns12="urn:be:fgov:ehealth:samws:v2:nonmedicinal:common" xmlns:ns11="urn:be:fgov:ehealth:samws:v2:compounding:common" xmlns:ns10="urn:be:fgov:ehealth:samws:v2:virtual:common" xmlns:ns9="urn:be:fgov:ehealth:samws:v2:reimbursementlaw:submit" xmlns:ns8="urn:be:fgov:ehealth:samws:v2:reimbursement:submit" xmlns:ns7="urn:be:fgov:ehealth:samws:v2:company:submit" xmlns:ns6="urn:be:fgov:ehealth:samws:v2:export" xmlns:ns5="urn:be:fgov:ehealth:samws:v2:refdata" xmlns:ns4="urn:be:fgov:ehealth:samws:v2:consultation" xmlns:ns3="urn:be:fgov:ehealth:samws:v2:actual:product:famhp" xmlns:ns2="urn:be:fgov:ehealth:samws:v2:core">
+
+
+    -<ns3:Amp code="SAM530604-00" from="2018-05-30+02:00" action="ADD">
+
+    <ns14:OfficialName>Dafalgan Plus Caffeine 500 mg - 65 mg</ns14:OfficialName>
+
+    <ns14:Status>AUTHORIZED</ns14:Status>
+
+
+    -<ns14:Name>
+
+    <ns2:Fr>Dafalgan Plus Caffeine 500 mg - 65 mg</ns2:Fr>
+
+    <ns2:Nl>Dafalgan Plus Caffeine 500 mg - 65 mg</ns2:Nl>
+
+    <ns2:De>Dafalgan Plus Caffeine 500 mg - 65 mg</ns2:De>
+
+    <ns2:En>Dafalgan Plus Caffeine 500 mg - 65 mg</ns2:En>
+
+</ns14:Name>
+
+    <ns14:BlackTriangle>false</ns14:BlackTriangle>
+
+    <ns14:MedicineType>ALLOPATHIC</ns14:MedicineType>
+
+    <ns14:CompanyActorNr>02657</ns14:CompanyActorNr>
+
+
+    -<ns14:AmpComponent sequenceNr="1">
+
+    <ns14:PharmaceuticalFormCode>110</ns14:PharmaceuticalFormCode>
+
+    <ns14:RouteOfAdministrationCode>57</ns14:RouteOfAdministrationCode>
+
+
+    -<ns14:RealActualIngredient rank="1">
+
+    <ns14:Type>ACTIVE_SUBSTANCE</ns14:Type>
+
+    <ns14:Strength unit="mg">500.0</ns14:Strength>
+
+    <ns14:AdditionalInformation> </ns14:AdditionalInformation>
+
+    <ns14:SubstanceCode>4</ns14:SubstanceCode>
+
+</ns14:RealActualIngredient>
+
+
+    -<ns14:RealActualIngredient rank="2">
+
+    <ns14:Type>ACTIVE_SUBSTANCE</ns14:Type>
+
+    <ns14:Strength unit="mg">65.0</ns14:Strength>
+
+    <ns14:SubstanceCode>98</ns14:SubstanceCode>
+
+</ns14:RealActualIngredient>
+
+</ns14:AmpComponent>
+
+
+    -<ns14:Ampp from="2018-05-30+02:00" action="ADD" ctiExtended="530604-01">
+
+    <ns14:AuthorisationNr>BE530604</ns14:AuthorisationNr>
+
+    <ns14:Orphan>false</ns14:Orphan>
+
+
+    -<ns14:LeafletLink>
+
+    <ns2:Fr>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=leafletFR</ns2:Fr>
+
+    <ns2:Nl>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=leafletNL</ns2:Nl>
+
+    <ns2:De>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=leafletDE</ns2:De>
+
+</ns14:LeafletLink>
+
+
+    -<ns14:SpcLink>
+
+    <ns2:Fr>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=rcp</ns2:Fr>
+
+    <ns2:Nl>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=skp</ns2:Nl>
+
+</ns14:SpcLink>
+
+    <ns14:ParallelCircuit>0</ns14:ParallelCircuit>
+
+    <ns14:PackDisplayValue>4</ns14:PackDisplayValue>
+
+    <ns14:Status>AUTHORIZED</ns14:Status>
+
+
+    -<ns14:PrescriptionNameFamhp>
+
+    <ns2:Fr>Dafalgan Plus Caffeine 500 mg - 65 mg compr. pellic. 4</ns2:Fr>
+
+    <ns2:Nl>Dafalgan Plus Caffeine 500 mg - 65 mg filmomh. tabl. 4</ns2:Nl>
+
+    <ns2:De>Dafalgan Plus Caffeine 500 mg - 65 mg Filmtabl. 4</ns2:De>
+
+    <ns2:En>Dafalgan Plus Caffeine 500 mg - 65 mg film-coat. tabl. 4</ns2:En>
+
+</ns14:PrescriptionNameFamhp>
+
+    <ns14:FMDInScope>false</ns14:FMDInScope>
+
+    <ns14:AtcCode>N02BE51</ns14:AtcCode>
+
+    <ns14:DeliveryModusCode>TF</ns14:DeliveryModusCode>
+
+
+    -<ns14:AmppComponent sequenceNr="1">
+
+    <ns14:AmpcSequenceNr>1</ns14:AmpcSequenceNr>
+
+    <ns14:ContentType>ACTIVE_COMPONENT</ns14:ContentType>
+
+    <ns14:PackagingMaterialCode>258</ns14:PackagingMaterialCode>
+
+    <ns14:PackagingTypeCode>4</ns14:PackagingTypeCode>
+
+
+    -<ns14:AmppComponentEquivalent sequenceNr="1">
+
+    <ns14:Content unit="{unit}">4.0</ns14:Content>
+
+</ns14:AmppComponentEquivalent>
+
+</ns14:AmppComponent>
+
+</ns14:Ampp>
+
+
+    -<ns14:Ampp from="2018-05-30+02:00" action="ADD" ctiExtended="530604-02">
+
+    <ns14:AuthorisationNr>BE530604</ns14:AuthorisationNr>
+
+    <ns14:Orphan>false</ns14:Orphan>
+
+
+    -<ns14:LeafletLink>
+
+    <ns2:Fr>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=leafletFR</ns2:Fr>
+
+    <ns2:Nl>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=leafletNL</ns2:Nl>
+
+    <ns2:De>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=leafletDE</ns2:De>
+
+</ns14:LeafletLink>
+
+
+    -<ns14:SpcLink>
+
+    <ns2:Fr>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=rcp</ns2:Fr>
+
+    <ns2:Nl>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=skp</ns2:Nl>
+
+</ns14:SpcLink>
+
+    <ns14:ParallelCircuit>0</ns14:ParallelCircuit>
+
+    <ns14:PackDisplayValue>6</ns14:PackDisplayValue>
+
+    <ns14:Status>AUTHORIZED</ns14:Status>
+
+
+    -<ns14:PrescriptionNameFamhp>
+
+    <ns2:Fr>Dafalgan Plus Caffeine 500 mg - 65 mg compr. pellic. 6</ns2:Fr>
+
+    <ns2:Nl>Dafalgan Plus Caffeine 500 mg - 65 mg filmomh. tabl. 6</ns2:Nl>
+
+    <ns2:De>Dafalgan Plus Caffeine 500 mg - 65 mg Filmtabl. 6</ns2:De>
+
+    <ns2:En>Dafalgan Plus Caffeine 500 mg - 65 mg film-coat. tabl. 6</ns2:En>
+
+</ns14:PrescriptionNameFamhp>
+
+    <ns14:FMDInScope>false</ns14:FMDInScope>
+
+    <ns14:AtcCode>N02BE51</ns14:AtcCode>
+
+    <ns14:DeliveryModusCode>TF</ns14:DeliveryModusCode>
+
+
+    -<ns14:AmppComponent sequenceNr="1">
+
+    <ns14:AmpcSequenceNr>1</ns14:AmpcSequenceNr>
+
+    <ns14:ContentType>ACTIVE_COMPONENT</ns14:ContentType>
+
+    <ns14:PackagingMaterialCode>258</ns14:PackagingMaterialCode>
+
+    <ns14:PackagingTypeCode>4</ns14:PackagingTypeCode>
+
+
+    -<ns14:AmppComponentEquivalent sequenceNr="1">
+
+    <ns14:Content unit="{unit}">6.0</ns14:Content>
+
+</ns14:AmppComponentEquivalent>
+
+</ns14:AmppComponent>
+
+</ns14:Ampp>
+
+
+    -<ns14:Ampp from="2018-05-30+02:00" action="ADD" ctiExtended="530604-03">
+
+    <ns14:AuthorisationNr>BE530604</ns14:AuthorisationNr>
+
+    <ns14:Orphan>false</ns14:Orphan>
+
+
+    -<ns14:LeafletLink>
+
+    <ns2:Fr>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=leafletFR</ns2:Fr>
+
+    <ns2:Nl>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=leafletNL</ns2:Nl>
+
+    <ns2:De>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=leafletDE</ns2:De>
+
+</ns14:LeafletLink>
+
+
+    -<ns14:SpcLink>
+
+    <ns2:Fr>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=rcp</ns2:Fr>
+
+    <ns2:Nl>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=skp</ns2:Nl>
+
+</ns14:SpcLink>
+
+    <ns14:ParallelCircuit>0</ns14:ParallelCircuit>
+
+    <ns14:PackDisplayValue>8</ns14:PackDisplayValue>
+
+    <ns14:Status>AUTHORIZED</ns14:Status>
+
+
+    -<ns14:PrescriptionNameFamhp>
+
+    <ns2:Fr>Dafalgan Plus Caffeine 500 mg - 65 mg compr. pellic. 8</ns2:Fr>
+
+    <ns2:Nl>Dafalgan Plus Caffeine 500 mg - 65 mg filmomh. tabl. 8</ns2:Nl>
+
+    <ns2:De>Dafalgan Plus Caffeine 500 mg - 65 mg Filmtabl. 8</ns2:De>
+
+    <ns2:En>Dafalgan Plus Caffeine 500 mg - 65 mg film-coat. tabl. 8</ns2:En>
+
+</ns14:PrescriptionNameFamhp>
+
+    <ns14:FMDInScope>false</ns14:FMDInScope>
+
+    <ns14:AtcCode>N02BE51</ns14:AtcCode>
+
+    <ns14:DeliveryModusCode>TF</ns14:DeliveryModusCode>
+
+
+    -<ns14:AmppComponent sequenceNr="1">
+
+    <ns14:AmpcSequenceNr>1</ns14:AmpcSequenceNr>
+
+    <ns14:ContentType>ACTIVE_COMPONENT</ns14:ContentType>
+
+    <ns14:PackagingMaterialCode>258</ns14:PackagingMaterialCode>
+
+    <ns14:PackagingTypeCode>4</ns14:PackagingTypeCode>
+
+
+    -<ns14:AmppComponentEquivalent sequenceNr="1">
+
+    <ns14:Content unit="{unit}">8.0</ns14:Content>
+
+</ns14:AmppComponentEquivalent>
+
+</ns14:AmppComponent>
+
+</ns14:Ampp>
+
+
+    -<ns14:Ampp from="2018-05-30+02:00" action="ADD" ctiExtended="530604-04">
+
+    <ns14:AuthorisationNr>BE530604</ns14:AuthorisationNr>
+
+    <ns14:Orphan>false</ns14:Orphan>
+
+
+    -<ns14:LeafletLink>
+
+    <ns2:Fr>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=leafletFR</ns2:Fr>
+
+    <ns2:Nl>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=leafletNL</ns2:Nl>
+
+    <ns2:De>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=leafletDE</ns2:De>
+
+</ns14:LeafletLink>
+
+
+    -<ns14:SpcLink>
+
+    <ns2:Fr>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=rcp</ns2:Fr>
+
+    <ns2:Nl>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=skp</ns2:Nl>
+
+</ns14:SpcLink>
+
+    <ns14:ParallelCircuit>0</ns14:ParallelCircuit>
+
+    <ns14:PackDisplayValue>10</ns14:PackDisplayValue>
+
+    <ns14:Status>AUTHORIZED</ns14:Status>
+
+
+    -<ns14:PrescriptionNameFamhp>
+
+    <ns2:Fr>Dafalgan Plus Caffeine 500 mg - 65 mg compr. pellic. 10</ns2:Fr>
+
+    <ns2:Nl>Dafalgan Plus Caffeine 500 mg - 65 mg filmomh. tabl. 10</ns2:Nl>
+
+    <ns2:De>Dafalgan Plus Caffeine 500 mg - 65 mg Filmtabl. 10</ns2:De>
+
+    <ns2:En>Dafalgan Plus Caffeine 500 mg - 65 mg film-coat. tabl. 10</ns2:En>
+
+</ns14:PrescriptionNameFamhp>
+
+    <ns14:FMDInScope>false</ns14:FMDInScope>
+
+    <ns14:AtcCode>N02BE51</ns14:AtcCode>
+
+    <ns14:DeliveryModusCode>TF</ns14:DeliveryModusCode>
+
+
+    -<ns14:AmppComponent sequenceNr="1">
+
+    <ns14:AmpcSequenceNr>1</ns14:AmpcSequenceNr>
+
+    <ns14:ContentType>ACTIVE_COMPONENT</ns14:ContentType>
+
+    <ns14:PackagingMaterialCode>258</ns14:PackagingMaterialCode>
+
+    <ns14:PackagingTypeCode>4</ns14:PackagingTypeCode>
+
+
+    -<ns14:AmppComponentEquivalent sequenceNr="1">
+
+    <ns14:Content unit="{unit}">10.0</ns14:Content>
+
+</ns14:AmppComponentEquivalent>
+
+</ns14:AmppComponent>
+
+</ns14:Ampp>
+
+
+    -<ns14:Ampp from="2018-05-30+02:00" action="ADD" ctiExtended="530604-05">
+
+    <ns14:AuthorisationNr>BE530604</ns14:AuthorisationNr>
+
+    <ns14:Orphan>false</ns14:Orphan>
+
+
+    -<ns14:LeafletLink>
+
+    <ns2:Fr>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=leafletFR</ns2:Fr>
+
+    <ns2:Nl>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=leafletNL</ns2:Nl>
+
+    <ns2:De>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=leafletDE</ns2:De>
+
+</ns14:LeafletLink>
+
+
+    -<ns14:SpcLink>
+
+    <ns2:Fr>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=rcp</ns2:Fr>
+
+    <ns2:Nl>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=skp</ns2:Nl>
+
+</ns14:SpcLink>
+
+    <ns14:ParallelCircuit>0</ns14:ParallelCircuit>
+
+    <ns14:PackDisplayValue>12</ns14:PackDisplayValue>
+
+    <ns14:Status>AUTHORIZED</ns14:Status>
+
+
+    -<ns14:PrescriptionNameFamhp>
+
+    <ns2:Fr>Dafalgan Plus Caffeine 500 mg - 65 mg compr. pellic. 12</ns2:Fr>
+
+    <ns2:Nl>Dafalgan Plus Caffeine 500 mg - 65 mg filmomh. tabl. 12</ns2:Nl>
+
+    <ns2:De>Dafalgan Plus Caffeine 500 mg - 65 mg Filmtabl. 12</ns2:De>
+
+    <ns2:En>Dafalgan Plus Caffeine 500 mg - 65 mg film-coat. tabl. 12</ns2:En>
+
+</ns14:PrescriptionNameFamhp>
+
+    <ns14:FMDInScope>false</ns14:FMDInScope>
+
+    <ns14:AtcCode>N02BE51</ns14:AtcCode>
+
+    <ns14:DeliveryModusCode>TF</ns14:DeliveryModusCode>
+
+
+    -<ns14:AmppComponent sequenceNr="1">
+
+    <ns14:AmpcSequenceNr>1</ns14:AmpcSequenceNr>
+
+    <ns14:ContentType>ACTIVE_COMPONENT</ns14:ContentType>
+
+    <ns14:PackagingMaterialCode>258</ns14:PackagingMaterialCode>
+
+    <ns14:PackagingTypeCode>4</ns14:PackagingTypeCode>
+
+
+    -<ns14:AmppComponentEquivalent sequenceNr="1">
+
+    <ns14:Content unit="{unit}">12.0</ns14:Content>
+
+</ns14:AmppComponentEquivalent>
+
+</ns14:AmppComponent>
+
+</ns14:Ampp>
+
+
+    -<ns14:Ampp from="2018-05-30+02:00" action="ADD" ctiExtended="530604-06">
+
+    <ns14:AuthorisationNr>BE530604</ns14:AuthorisationNr>
+
+    <ns14:Orphan>false</ns14:Orphan>
+
+
+    -<ns14:LeafletLink>
+
+    <ns2:Fr>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=leafletFR</ns2:Fr>
+
+    <ns2:Nl>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=leafletNL</ns2:Nl>
+
+    <ns2:De>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=leafletDE</ns2:De>
+
+</ns14:LeafletLink>
+
+
+    -<ns14:SpcLink>
+
+    <ns2:Fr>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=rcp</ns2:Fr>
+
+    <ns2:Nl>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=skp</ns2:Nl>
+
+</ns14:SpcLink>
+
+    <ns14:ParallelCircuit>0</ns14:ParallelCircuit>
+
+    <ns14:PackDisplayValue>14</ns14:PackDisplayValue>
+
+    <ns14:Status>AUTHORIZED</ns14:Status>
+
+
+    -<ns14:PrescriptionNameFamhp>
+
+    <ns2:Fr>Dafalgan Plus Caffeine 500 mg - 65 mg compr. pellic. 14</ns2:Fr>
+
+    <ns2:Nl>Dafalgan Plus Caffeine 500 mg - 65 mg filmomh. tabl. 14</ns2:Nl>
+
+    <ns2:De>Dafalgan Plus Caffeine 500 mg - 65 mg Filmtabl. 14</ns2:De>
+
+    <ns2:En>Dafalgan Plus Caffeine 500 mg - 65 mg film-coat. tabl. 14</ns2:En>
+
+</ns14:PrescriptionNameFamhp>
+
+    <ns14:FMDInScope>false</ns14:FMDInScope>
+
+    <ns14:AtcCode>N02BE51</ns14:AtcCode>
+
+    <ns14:DeliveryModusCode>TF</ns14:DeliveryModusCode>
+
+
+    -<ns14:AmppComponent sequenceNr="1">
+
+    <ns14:AmpcSequenceNr>1</ns14:AmpcSequenceNr>
+
+    <ns14:ContentType>ACTIVE_COMPONENT</ns14:ContentType>
+
+    <ns14:PackagingMaterialCode>258</ns14:PackagingMaterialCode>
+
+    <ns14:PackagingTypeCode>4</ns14:PackagingTypeCode>
+
+
+    -<ns14:AmppComponentEquivalent sequenceNr="1">
+
+    <ns14:Content unit="{unit}">14.0</ns14:Content>
+
+</ns14:AmppComponentEquivalent>
+
+</ns14:AmppComponent>
+
+</ns14:Ampp>
+
+
+    -<ns14:Ampp from="2018-05-30+02:00" action="ADD" ctiExtended="530604-07">
+
+    <ns14:AuthorisationNr>BE530604</ns14:AuthorisationNr>
+
+    <ns14:Orphan>false</ns14:Orphan>
+
+
+    -<ns14:LeafletLink>
+
+    <ns2:Fr>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=leafletFR</ns2:Fr>
+
+    <ns2:Nl>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=leafletNL</ns2:Nl>
+
+    <ns2:De>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=leafletDE</ns2:De>
+
+</ns14:LeafletLink>
+
+
+    -<ns14:SpcLink>
+
+    <ns2:Fr>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=rcp</ns2:Fr>
+
+    <ns2:Nl>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=skp</ns2:Nl>
+
+</ns14:SpcLink>
+
+    <ns14:ParallelCircuit>0</ns14:ParallelCircuit>
+
+    <ns14:PackDisplayValue>16</ns14:PackDisplayValue>
+
+    <ns14:Status>AUTHORIZED</ns14:Status>
+
+
+    -<ns14:PrescriptionNameFamhp>
+
+    <ns2:Fr>Dafalgan Plus Caffeine 500 mg - 65 mg compr. pellic. 16</ns2:Fr>
+
+    <ns2:Nl>Dafalgan Plus Caffeine 500 mg - 65 mg filmomh. tabl. 16</ns2:Nl>
+
+    <ns2:De>Dafalgan Plus Caffeine 500 mg - 65 mg Filmtabl. 16</ns2:De>
+
+    <ns2:En>Dafalgan Plus Caffeine 500 mg - 65 mg film-coat. tabl. 16</ns2:En>
+
+</ns14:PrescriptionNameFamhp>
+
+    <ns14:FMDInScope>false</ns14:FMDInScope>
+
+    <ns14:AtcCode>N02BE51</ns14:AtcCode>
+
+    <ns14:DeliveryModusCode>TF</ns14:DeliveryModusCode>
+
+
+    -<ns14:AmppComponent sequenceNr="1">
+
+    <ns14:AmpcSequenceNr>1</ns14:AmpcSequenceNr>
+
+    <ns14:ContentType>ACTIVE_COMPONENT</ns14:ContentType>
+
+    <ns14:PackagingMaterialCode>258</ns14:PackagingMaterialCode>
+
+    <ns14:PackagingTypeCode>4</ns14:PackagingTypeCode>
+
+
+    -<ns14:AmppComponentEquivalent sequenceNr="1">
+
+    <ns14:Content unit="{unit}">16.0</ns14:Content>
+
+</ns14:AmppComponentEquivalent>
+
+</ns14:AmppComponent>
+
+</ns14:Ampp>
+
+
+    -<ns14:Ampp from="2018-05-30+02:00" action="ADD" ctiExtended="530604-08">
+
+    <ns14:AuthorisationNr>BE530604</ns14:AuthorisationNr>
+
+    <ns14:Orphan>false</ns14:Orphan>
+
+
+    -<ns14:LeafletLink>
+
+    <ns2:Fr>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=leafletFR</ns2:Fr>
+
+    <ns2:Nl>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=leafletNL</ns2:Nl>
+
+    <ns2:De>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=leafletDE</ns2:De>
+
+</ns14:LeafletLink>
+
+
+    -<ns14:SpcLink>
+
+    <ns2:Fr>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=rcp</ns2:Fr>
+
+    <ns2:Nl>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=skp</ns2:Nl>
+
+</ns14:SpcLink>
+
+    <ns14:ParallelCircuit>0</ns14:ParallelCircuit>
+
+    <ns14:PackDisplayValue>20</ns14:PackDisplayValue>
+
+    <ns14:Status>AUTHORIZED</ns14:Status>
+
+
+    -<ns14:PrescriptionNameFamhp>
+
+    <ns2:Fr>Dafalgan Plus Caffeine 500 mg - 65 mg compr. pellic. 20</ns2:Fr>
+
+    <ns2:Nl>Dafalgan Plus Caffeine 500 mg - 65 mg filmomh. tabl. 20</ns2:Nl>
+
+    <ns2:De>Dafalgan Plus Caffeine 500 mg - 65 mg Filmtabl. 20</ns2:De>
+
+    <ns2:En>Dafalgan Plus Caffeine 500 mg - 65 mg film-coat. tabl. 20</ns2:En>
+
+</ns14:PrescriptionNameFamhp>
+
+    <ns14:FMDInScope>false</ns14:FMDInScope>
+
+    <ns14:AntiTemperingDevicePresent>false</ns14:AntiTemperingDevicePresent>
+
+    <ns14:AtcCode>N02BE51</ns14:AtcCode>
+
+    <ns14:DeliveryModusCode>TF</ns14:DeliveryModusCode>
+
+
+    -<ns14:AmppComponent sequenceNr="1">
+
+    <ns14:AmpcSequenceNr>1</ns14:AmpcSequenceNr>
+
+    <ns14:ContentType>ACTIVE_COMPONENT</ns14:ContentType>
+
+    <ns14:PackagingMaterialCode>258</ns14:PackagingMaterialCode>
+
+    <ns14:PackagingTypeCode>4</ns14:PackagingTypeCode>
+
+
+    -<ns14:AmppComponentEquivalent sequenceNr="1">
+
+    <ns14:Content unit="{unit}">20.0</ns14:Content>
+
+</ns14:AmppComponentEquivalent>
+
+</ns14:AmppComponent>
+
+    <ns14:Commercialization from="2020-02-14+01:00" action="ADD"/>
+
+</ns14:Ampp>
+
+
+    -<ns14:Ampp from="2018-05-30+02:00" action="ADD" ctiExtended="530604-09">
+
+    <ns14:AuthorisationNr>BE530604</ns14:AuthorisationNr>
+
+    <ns14:Orphan>false</ns14:Orphan>
+
+
+    -<ns14:LeafletLink>
+
+    <ns2:Fr>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=leafletFR</ns2:Fr>
+
+    <ns2:Nl>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=leafletNL</ns2:Nl>
+
+    <ns2:De>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=leafletDE</ns2:De>
+
+</ns14:LeafletLink>
+
+
+    -<ns14:SpcLink>
+
+    <ns2:Fr>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=rcp</ns2:Fr>
+
+    <ns2:Nl>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=skp</ns2:Nl>
+
+</ns14:SpcLink>
+
+    <ns14:ParallelCircuit>0</ns14:ParallelCircuit>
+
+    <ns14:PackDisplayValue>24</ns14:PackDisplayValue>
+
+    <ns14:Status>AUTHORIZED</ns14:Status>
+
+
+    -<ns14:PrescriptionNameFamhp>
+
+    <ns2:Fr>Dafalgan Plus Caffeine 500 mg - 65 mg compr. pellic. 24</ns2:Fr>
+
+    <ns2:Nl>Dafalgan Plus Caffeine 500 mg - 65 mg filmomh. tabl. 24</ns2:Nl>
+
+    <ns2:De>Dafalgan Plus Caffeine 500 mg - 65 mg Filmtabl. 24</ns2:De>
+
+    <ns2:En>Dafalgan Plus Caffeine 500 mg - 65 mg film-coat. tabl. 24</ns2:En>
+
+</ns14:PrescriptionNameFamhp>
+
+    <ns14:FMDInScope>false</ns14:FMDInScope>
+
+    <ns14:AtcCode>N02BE51</ns14:AtcCode>
+
+    <ns14:DeliveryModusCode>TD</ns14:DeliveryModusCode>
+
+
+    -<ns14:AmppComponent sequenceNr="1">
+
+    <ns14:AmpcSequenceNr>1</ns14:AmpcSequenceNr>
+
+    <ns14:ContentType>ACTIVE_COMPONENT</ns14:ContentType>
+
+    <ns14:PackagingMaterialCode>258</ns14:PackagingMaterialCode>
+
+    <ns14:PackagingTypeCode>4</ns14:PackagingTypeCode>
+
+
+    -<ns14:AmppComponentEquivalent sequenceNr="1">
+
+    <ns14:Content unit="{unit}">24.0</ns14:Content>
+
+</ns14:AmppComponentEquivalent>
+
+</ns14:AmppComponent>
+
+</ns14:Ampp>
+
+
+    -<ns14:Ampp from="2018-05-30+02:00" action="ADD" ctiExtended="530604-10">
+
+    <ns14:AuthorisationNr>BE530604</ns14:AuthorisationNr>
+
+    <ns14:Orphan>false</ns14:Orphan>
+
+
+    -<ns14:LeafletLink>
+
+    <ns2:Fr>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=leafletFR</ns2:Fr>
+
+    <ns2:Nl>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=leafletNL</ns2:Nl>
+
+    <ns2:De>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=leafletDE</ns2:De>
+
+</ns14:LeafletLink>
+
+
+    -<ns14:SpcLink>
+
+    <ns2:Fr>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=rcp</ns2:Fr>
+
+    <ns2:Nl>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=skp</ns2:Nl>
+
+</ns14:SpcLink>
+
+    <ns14:ParallelCircuit>0</ns14:ParallelCircuit>
+
+    <ns14:PackDisplayValue>30</ns14:PackDisplayValue>
+
+    <ns14:Status>AUTHORIZED</ns14:Status>
+
+
+    -<ns14:PrescriptionNameFamhp>
+
+    <ns2:Fr>Dafalgan Plus Caffeine 500 mg - 65 mg compr. pellic. 30</ns2:Fr>
+
+    <ns2:Nl>Dafalgan Plus Caffeine 500 mg - 65 mg filmomh. tabl. 30</ns2:Nl>
+
+    <ns2:De>Dafalgan Plus Caffeine 500 mg - 65 mg Filmtabl. 30</ns2:De>
+
+    <ns2:En>Dafalgan Plus Caffeine 500 mg - 65 mg film-coat. tabl. 30</ns2:En>
+
+</ns14:PrescriptionNameFamhp>
+
+    <ns14:FMDInScope>false</ns14:FMDInScope>
+
+    <ns14:AntiTemperingDevicePresent>false</ns14:AntiTemperingDevicePresent>
+
+    <ns14:AtcCode>N02BE51</ns14:AtcCode>
+
+    <ns14:DeliveryModusCode>TD</ns14:DeliveryModusCode>
+
+
+    -<ns14:AmppComponent sequenceNr="1">
+
+    <ns14:AmpcSequenceNr>1</ns14:AmpcSequenceNr>
+
+    <ns14:ContentType>ACTIVE_COMPONENT</ns14:ContentType>
+
+    <ns14:PackagingMaterialCode>258</ns14:PackagingMaterialCode>
+
+    <ns14:PackagingTypeCode>4</ns14:PackagingTypeCode>
+
+
+    -<ns14:AmppComponentEquivalent sequenceNr="1">
+
+    <ns14:Content unit="{unit}">30.0</ns14:Content>
+
+</ns14:AmppComponentEquivalent>
+
+</ns14:AmppComponent>
+
+    <ns14:Commercialization from="2020-02-14+01:00" action="ADD"/>
+
+
+    -<ns14:SupplyProblem from="2020-05-08+02:00" action="ADD">
+
+    <ns14:ExpectedEndOn>2020-10-31+01:00</ns14:ExpectedEndOn>
+
+    <ns14:ReportedBy>Company</ns14:ReportedBy>
+
+    <ns14:ReportedOn>2020-05-11+02:00</ns14:ReportedOn>
+
+
+    -<ns14:Reason>
+
+    <ns2:Fr>Retard dans la production</ns2:Fr>
+
+    <ns2:Nl>Vertraging in de productie</ns2:Nl>
+
+    <ns2:De>-</ns2:De>
+
+    <ns2:En>Delay in production</ns2:En>
+
+</ns14:Reason>
+
+
+    -<ns14:Impact>
+
+    <ns2:Fr>Au moins trois alternatives disponibles</ns2:Fr>
+
+    <ns2:Nl>Minstens drie alternatieven beschikbaar</ns2:Nl>
+
+    <ns2:En>At least three alternatives available</ns2:En>
+
+</ns14:Impact>
+
+</ns14:SupplyProblem>
+
+</ns14:Ampp>
+
+
+    -<ns14:Ampp from="2018-05-30+02:00" action="ADD" ctiExtended="530604-11">
+
+    <ns14:AuthorisationNr>BE530604</ns14:AuthorisationNr>
+
+    <ns14:Orphan>false</ns14:Orphan>
+
+
+    -<ns14:LeafletLink>
+
+    <ns2:Fr>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=leafletFR</ns2:Fr>
+
+    <ns2:Nl>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=leafletNL</ns2:Nl>
+
+    <ns2:De>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=leafletDE</ns2:De>
+
+</ns14:LeafletLink>
+
+
+    -<ns14:SpcLink>
+
+    <ns2:Fr>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=rcp</ns2:Fr>
+
+    <ns2:Nl>http://bijsluiters.fagg-afmps.be/registrationSearchServlet?key=BE530604&leafletType=skp</ns2:Nl>
+
+</ns14:SpcLink>
+
+    <ns14:ParallelCircuit>0</ns14:ParallelCircuit>
+
+    <ns14:PackDisplayValue>32</ns14:PackDisplayValue>
+
+    <ns14:Status>AUTHORIZED</ns14:Status>
+
+
+    -<ns14:PrescriptionNameFamhp>
+
+    <ns2:Fr>Dafalgan Plus Caffeine 500 mg - 65 mg compr. pellic. 32</ns2:Fr>
+
+    <ns2:Nl>Dafalgan Plus Caffeine 500 mg - 65 mg filmomh. tabl. 32</ns2:Nl>
+
+    <ns2:De>Dafalgan Plus Caffeine 500 mg - 65 mg Filmtabl. 32</ns2:De>
+
+    <ns2:En>Dafalgan Plus Caffeine 500 mg - 65 mg film-coat. tabl. 32</ns2:En>
+
+</ns14:PrescriptionNameFamhp>
+
+    <ns14:FMDInScope>false</ns14:FMDInScope>
+
+    <ns14:AtcCode>N02BE51</ns14:AtcCode>
+
+    <ns14:DeliveryModusCode>TD</ns14:DeliveryModusCode>
+
+
+    -<ns14:AmppComponent sequenceNr="1">
+
+    <ns14:AmpcSequenceNr>1</ns14:AmpcSequenceNr>
+
+    <ns14:ContentType>ACTIVE_COMPONENT</ns14:ContentType>
+
+    <ns14:PackagingMaterialCode>258</ns14:PackagingMaterialCode>
+
+    <ns14:PackagingTypeCode>4</ns14:PackagingTypeCode>
+
+
+    -<ns14:AmppComponentEquivalent sequenceNr="1">
+
+    <ns14:Content unit="{unit}">32.0</ns14:Content>
+
+</ns14:AmppComponentEquivalent>
+
+</ns14:AmppComponent>
+
+</ns14:Ampp>
+
+</ns3:Amp>
+
+</ROOT>
